@@ -1,11 +1,13 @@
 # Diabetic-detection
 ### Motivation
-To grow my machine learning skills, this is another continuation of my ML project - diabetes prediction. In this project , we did the following:
+To grow my machine learning skills, this is another continuation of my ML project - diabetes prediction. 
+In this project, we did the following:
 1) Exploratory data analysis (EDA)
 2) Building ML project
 3) Prepare a webapps and Deploy this in Heroku  
 
-Here is our webapps access <a href="https://diabetic-detection-app-rashed.herokuapp.com/">link.</a>and this how its looks like after deploying it in heroku. 
+Here is our webapps access <a href="https://diabetic-detection-app-rashed.herokuapp.com/">link.</a> and this how its looks like after deploying it in heroku.
+
 ![Alt Text](https://github.com/rashed2940/Diabetic-detection/blob/main/charts/apps.gif)
 
 ### About Data Set
