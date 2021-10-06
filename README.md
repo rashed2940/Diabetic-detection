@@ -11,7 +11,7 @@ Here is our webapps access <a href="https://diabetic-detection-app-rashed.heroku
 ![Alt Text](https://github.com/rashed2940/Diabetic-detection/blob/main/charts/apps.gif)
 
 ### About Data Set
-According to WHO about 422 million people worldwide have diabetes. Since diabetes affects a large population across the globe and the collection of these datasets is a continuous process and it comprises of various patient related attributes such as age, gender, symptoms, insulin levels, blood pressure, blood glucose levels, weight etc. We are working on Pima Indians Diabetes Dataset (PIDD), extracted from <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database/data%22">Kaggle.</a>
+According to WHO about 422 million people worldwide have diabetes. Since diabetes affects a large population across the globe and the collection of these datasets is a continuous process and it comprises of various patient related attributes such as age, gender, symptoms, insulin levels, blood pressure, blood glucose levels, weight etc. We are working on Pima Indians Diabetes Dataset (PIDD), extracted from <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Kaggle.</a>
 
 This dataset consists of multiple independent variables and one dependent variable (Outcome). Independent variables include:
 
