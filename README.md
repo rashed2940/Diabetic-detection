@@ -1,24 +1,14 @@
-# Diabetic-detection
+## Diabetic-detection
 
-## Motivation:
+### Motivation:
 To grow my machine learning skills, this is another continuation of my ML project - diabetes prediction. 
 In this project, we did the following:
 1) Exploratory data analysis (EDA)
 2) Building ML project
 3) Prepare a webapps and Deploy this in Heroku  
 
-Here is our webapps access link <a href="https://diabetic-detection-app-rashed.herokuapp.com/">https://diabetic-detection-app-rashed.herokuapp.com</a>   
-Webapps homepage looks like in below after deploying it in heroku.
 
-<!-- ![Alt Text](https://github.com/rashed2940/Diabetic-detection/blob/main/charts/apps.gif) -->
-
-<p align="center">
-<img src="/charts/apps.gif"   title = "WebApps Home Page">
-</p>
-
-
-
-## DataSet Description:
+### DataSet Description:
 According to WHO about 422 million people worldwide have diabetes. Since diabetes affects a large population across the globe and the collection of these datasets is a continuous process and it comprises of various patient related attributes such as age, gender, symptoms, insulin levels, blood pressure, blood glucose levels, weight etc. We are working on Pima Indians Diabetes Dataset (PIDD), extracted from <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Kaggle.</a>
 
 This dataset consists of multiple independent variables and one dependent variable (Outcome). Independent variables include:
@@ -33,7 +23,7 @@ This dataset consists of multiple independent variables and one dependent variab
 8) Age: Age of an individual (years)
 9) Outcome: Target Variable (0 or 1) where ‘0’ denotes patient is not diabetic and ‘1’ denotes patient is diabetic.
 
-## EDA Analysis:
+### EDA Analysis:
 
 There 5 obserbations are extracted from given data
 
@@ -67,3 +57,15 @@ There 5 obserbations are extracted from given data
   <img src="/charts/tmp/gvsBMI.png"   title = "BMI Vs Glucose">
   </p>
 
+### WebApps Deployment:
+
+Here is our webapps access link <a href="https://diabetic-detection-app-rashed.herokuapp.com/">https://diabetic-detection-app-rashed.herokuapp.com</a>   
+Webapps homepage looks like in below after deploying it in heroku.
+
+<!-- ![Alt Text](https://github.com/rashed2940/Diabetic-detection/blob/main/charts/apps.gif) -->
+
+<p align="center">
+<img src="/charts/apps.gif"   title = "WebApps Home Page">
+</p>
+
+@Rashed
