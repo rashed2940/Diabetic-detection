@@ -1,14 +1,13 @@
-## Diabetic-detection
+# Diabetic-detection
 
-### Motivation:
+## Motivation:
 To grow my machine learning skills, this is another continuation of my ML project - diabetes prediction. 
 In this project, we did the following:
 1) Exploratory data analysis (EDA)
 2) Building ML project
 3) Prepare a webapps and Deploy this in Heroku  
 
-
-### DataSet Description:
+## DataSet Description:
 According to WHO about 422 million people worldwide have diabetes. Since diabetes affects a large population across the globe and the collection of these datasets is a continuous process and it comprises of various patient related attributes such as age, gender, symptoms, insulin levels, blood pressure, blood glucose levels, weight etc. We are working on Pima Indians Diabetes Dataset (PIDD), extracted from <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Kaggle.</a>
 
 This dataset consists of multiple independent variables and one dependent variable (Outcome). Independent variables include:
@@ -23,7 +22,7 @@ This dataset consists of multiple independent variables and one dependent variab
 8) Age: Age of an individual (years)
 9) Outcome: Target Variable (0 or 1) where ‘0’ denotes patient is not diabetic and ‘1’ denotes patient is diabetic.
 
-### EDA Analysis:
+## 1) EDA Analysis:
 
 There 5 obserbations are extracted from given data
 
@@ -57,7 +56,12 @@ There 5 obserbations are extracted from given data
   <img src="/charts/tmp/gvsBMI.png"   title = "BMI Vs Glucose">
   </p>
 
-### WebApps Deployment:
+## 2) Building ML project:
+As this is a classification problem, Data has been tested with multiple classifiers (LogisticRegression,KNNeighborsClassifier,RandomForestClassifier,SVC). Since we are working with a dataset that involves dibetic, accuracy is not the most important score. We want to make sure that we do not tell someone they do not have diabetic when, in fact, they do. Due to the fact that we want an extremely low false negative rate, our focus is on the recall score for the class 'Diabetic' or '1'.
+Among tested 4 classifiers , RFC gave the best Recall score. 
+
+
+## 3) WebApps Deployment:
 
 Here is our webapps access link <a href="https://diabetic-detection-app-rashed.herokuapp.com/">https://diabetic-detection-app-rashed.herokuapp.com</a>   
 Webapps homepage looks like in below after deploying it in heroku.
@@ -68,4 +72,6 @@ Webapps homepage looks like in below after deploying it in heroku.
 <img src="/charts/apps.gif"   title = "WebApps Home Page">
 </p>
 
-@Rashed
+
+
+###### @Rashed
