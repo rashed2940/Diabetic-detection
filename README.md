@@ -7,7 +7,8 @@ In this project, we did the following:
 2) Building ML project
 3) Prepare a webapps and Deploy this in Heroku  
 
-Here is our webapps access link <a href="https://diabetic-detection-app-rashed.herokuapp.com/">https://diabetic-detection-app-rashed.herokuapp.com</a> and this how its looks like after deploying it in heroku.
+Here is our webapps access link <a href="https://diabetic-detection-app-rashed.herokuapp.com/">https://diabetic-detection-app-rashed.herokuapp.com</a>   
+Webapps homepage looks like in below after deploying it in heroku.
 
 <!-- ![Alt Text](https://github.com/rashed2940/Diabetic-detection/blob/main/charts/apps.gif) -->
 
