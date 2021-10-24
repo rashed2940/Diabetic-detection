@@ -57,7 +57,7 @@ There 5 obserbations are extracted from given data
   </p>
 
 ## 2) Building ML project:
-As this is a classification problem, Data has been tested with multiple classifiers (LogisticRegression,KNNeighborsClassifier,RandomForestClassifier,SVC). Since we are working with a dataset that involves dibetic, accuracy is not the most important score. We want to make sure that we do not tell someone they do not have diabetic when, in fact, they do. Due to the fact that we want an extremely low false negative rate, our focus is on the recall score for the class 'Diabetic' or '1'.
+As this is a classification problem, Data are tested with multiple classifiers (LogisticRegression,KNNeighborsClassifier,RandomForestClassifier,SVC). Since we are working with a dataset that involves dibetic, accuracy is not the most important score. We want to make sure that we do not tell someone they do not have diabetic when, in fact, they do. Due to the fact that we want an extremely low false negative rate, our focus is on the recall score for the class 'Diabetic' or '1'.  
 Among tested 4 classifiers , RFC gave the best Recall score. 
 
 
