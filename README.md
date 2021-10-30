@@ -60,6 +60,9 @@ There 5 obserbations are extracted from given data
 As this is a classification problem, Data are tested with multiple classifiers (LogisticRegression,KNNeighborsClassifier,RandomForestClassifier,SVC). Since we are working with a dataset that involves dibetic, accuracy is not the most important score. We want to make sure that we do not tell someone they do not have diabetic when, in fact, they do. Due to the fact that we want an extremely low false negative rate, our focus is on the recall score for the class 'Diabetic' or '1'.  
 Among tested 4 classifiers , RFC gave the best Recall score. 
 
+<p align="center">
+<img src="/charts/tmp/model_performence.png"   title = "models">
+</p>
 
 ## 3) WebApps Deployment:
 
@@ -71,6 +74,14 @@ Webapps homepage looks like in below after deploying it in heroku.
 <p align="center">
 <img src="/charts/apps.gif"   title = "WebApps Home Page">
 </p>
+
+
+## Refferences:
+- *1) https://medium.com/analytics-vidhya/feature-engineering-part-1-mean-median-imputation-761043b95379*
+- *2) https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning*
+- *3) https://colab.research.google.com/drive/1U0Ce_isYP4XMLtzzmR4QiRQcPHZ1MIM8*
+- *4) https://www.kdnuggets.com/2019/10/5-classification-evaluation-metrics-every-data-scientist-must-know.html*
+- *5) https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524*
 
 
 
