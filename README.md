@@ -77,11 +77,11 @@ Webapps homepage looks like in below after deploying it in heroku.
 
 
 ## Refferences:
- *1) https://medium.com/analytics-vidhya/feature-engineering-part-1-mean-median-imputation-761043b95379*
- *2) https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning*
- *3) https://colab.research.google.com/drive/1U0Ce_isYP4XMLtzzmR4QiRQcPHZ1MIM8*
- *4) https://www.kdnuggets.com/2019/10/5-classification-evaluation-metrics-every-data-scientist-must-know.html*
- *5) https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524*
+ *1) https://medium.com/analytics-vidhya/feature-engineering-part-1-mean-median-imputation-761043b95379*  
+ *2) https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning*  
+ *3) https://colab.research.google.com/drive/1U0Ce_isYP4XMLtzzmR4QiRQcPHZ1MIM8*  
+ *4) https://www.kdnuggets.com/2019/10/5-classification-evaluation-metrics-every-data-scientist-must-know.html*  
+ *5) https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524*  
 
 
 
