@@ -3,10 +3,10 @@ import pickle  ## pickle for loading model(Diabetes.pkl)
 import pandas as pd  ## to convert the input data into a dataframe for giving as a input to the model
 import numpy as np
 
+
 app = Flask(__name__)  ## setting up flask name
 
 model = pickle.load(open("Diabetes3.pkl", "rb"))  ##loading model
-
 
 @app.route('/')             ## Defining main index route
 def home():
@@ -31,7 +31,7 @@ def predict():
     # print(row_df.info())
     for i in colms:
         row_df[i] = pd.to_numeric(row_df[i])
-
+    
     def impute_data(df):
         col=['Glucose', 'BloodPressure','BMI']
         for i in col:
