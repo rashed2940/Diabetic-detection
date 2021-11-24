@@ -14,7 +14,7 @@ RUN pip install -r requirements_docker.txt
 ENTRYPOINT python app.py
 
 # usefull command
-# after adding all files and contents run the following command to build the container image
+# after preparing Dockerfile, run the following command to build the container image
 #  < docker build -t demo-dockerflask:latest . >
 #  < docker images > ; check the image with the following command
 #  < docker rmi -f $(docker images -a -q) > ; delete the image if there is something worng 
