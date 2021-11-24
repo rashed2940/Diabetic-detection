@@ -55,5 +55,9 @@ def predict():
     
     
     
+# if __name__ == '__main__':
+#     app.run(debug=True)          ## Running the app as debug==True
+
+# For docker 
 if __name__ == '__main__':
-    app.run(debug=True)          ## Running the app as debug==True
+    app.run(host="0.0.0.0",debug=True)          ## Running the app as debug==True
