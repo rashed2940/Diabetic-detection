@@ -30,9 +30,18 @@ ENTRYPOINT python app.py
 # to access that running detached container
 #  <docker exec -it docker_id/name bash >
 
+    # launch and access a container 
+    #  <ole@T:~$ docker run -it --rm alpine /bin/ash>
+    #  (inside container) / # 
+    # Options used above:
+    #        --/bin/ash is Ash (Almquist Shell) provided by BusyBox
+    #        --rm Automatically remove the container when it exits (docker run --help)
+    #        --i Interactive mode (Keep STDIN open even if not attached)
+    #        --t Allocate a pseudo-TTY
+
 # deleting all cached images and builds or containers
-#  <docker system prune -a>
-#  <docker builder prune>
+#  <docker system prune -a>  -> all build cacche/stopped container/networks/images
+#  <docker builder prune> -> deletes all dangling docker builds
 
 # further reference 
 # https://towardsdatascience.com/how-to-dockerize-an-existing-flask-application-115408463e1c
