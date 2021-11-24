@@ -15,20 +15,20 @@ ENTRYPOINT python app.py
 
 # usefull command
 # after adding all files and contents run the following command to build the container image
-#  <docker build -t demo-dockerflask:latest .>
-#  <docker images> ; check the image with the following command
-#  <docker rmi -f $(docker images -a -q)> ; delete the image if there is something worng 
+#  < docker build -t demo-dockerflask:latest . >
+#  < docker images > ; check the image with the following command
+#  < docker rmi -f $(docker images -a -q) > ; delete the image if there is something worng 
 # 
 # Build container from image
-#  <docker run -t -p 5000:5000 demo-dockerflask>
-#  <docker rm -f $(docker ps -a -q)> ; delete the container if there is something worng
+#  < docker run -t -p 5000:5000 demo-dockerflask >
+#  < docker rm -f $(docker ps -a -q) > ; delete the container if there is something worng
 #
 # Browse 127.0.0.1:5000 for accessing webapps
 
 # to run a container with detach mode 
-#  <docker run -d -t -p 5000:5000 demo-dockerflask> 
+#  < docker run -d -t -p 5000:5000 demo-dockerflask > 
 # to access that running detached container
-#  <docker exec -it docker_id/name bash >
+#  < docker exec -it docker_id/name bash >
 
     # launch and access a container 
     #  <ole@T:~$ docker run -it --rm alpine /bin/ash>
@@ -40,8 +40,8 @@ ENTRYPOINT python app.py
     #        --t Allocate a pseudo-TTY
 
 # deleting all cached images and builds or containers
-#  <docker system prune -a>  -> all build cacche/stopped container/networks/images
-#  <docker builder prune> -> deletes all dangling docker builds
+#  < docker system prune -a >  -> all build cacche/stopped container/networks/images
+#  < docker builder prune > -> deletes all dangling docker builds
 
 # further reference 
 # https://towardsdatascience.com/how-to-dockerize-an-existing-flask-application-115408463e1c
