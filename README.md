@@ -7,6 +7,8 @@ In this project, we did the following:
 2) Building ML project
 3) Prepare a webapps and Deploy this in Heroku  
 
+In Addiiton, we containerized our apps as well with docker. 
+ 
 ## DataSet Description:
 According to WHO about 422 million people worldwide have diabetes. Since diabetes affects a large population across the globe and the collection of these datasets is a continuous process and it comprises of various patient related attributes such as age, gender, symptoms, insulin levels, blood pressure, blood glucose levels, weight etc. We are working on Pima Indians Diabetes Dataset (PIDD), extracted from <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Kaggle.</a>
 
