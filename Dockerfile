@@ -30,14 +30,30 @@ ENTRYPOINT python app.py
 # to access that running detached container
 #  < docker exec -it docker_id/name bash >
 
-    # launch and access a container 
-    #  <ole@T:~$ docker run -it --rm alpine /bin/ash>
-    #  (inside container) / # 
-    # Options used above:
-    #        --/bin/ash is Ash (Almquist Shell) provided by BusyBox
-    #        --rm Automatically remove the container when it exits (docker run --help)
-    #        --i Interactive mode (Keep STDIN open even if not attached)
-    #        --t Allocate a pseudo-TTY
+
+# Launch and access a container 
+
+#  <ole@T:~$ docker run -it --rm alpine /bin/ash>
+#  (inside container) / # 
+# Options used above:
+#        --/bin/ash is Ash (Almquist Shell) provided by BusyBox
+#        --rm Automatically remove the container when it exits (docker run --help)
+#        --i Interactive mode (Keep STDIN open even if not attached)
+#        --t Allocate a pseudo-TTY
+
+
+# For DockerHub registry
+
+# do login
+# < docker login > 
+# create your image and tag it as like below
+#  < docker tag 35228ed28ced dockerhub_username/demo-dockerflask:latest >
+# push that image to docker hub
+#  < docker push dockerhub_username/demo-dockerflask >
+# if you want to pull that image from dockerhub back into your local machine
+#  < docker pull dockerhub_username/demo-dockerflask >
+# < docker logout > -> for logging out from docker
+
 
 # deleting all cached images and builds or containers
 #  < docker system prune -a >  -> all build cacche/stopped container/networks/images
@@ -47,3 +63,4 @@ ENTRYPOINT python app.py
 # https://towardsdatascience.com/how-to-dockerize-an-existing-flask-application-115408463e1c
 # https://felipefaria.medium.com/running-a-simple-flask-application-inside-a-docker-container-b83bf3e07dd5
 # usefull link ->  https://stackoverflow.com/questions/26504846/copy-directory-to-another-directory-using-add-command
+# https://jsta.github.io/r-docker-tutorial/04-Dockerhub.html
