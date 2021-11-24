@@ -30,6 +30,10 @@ ENTRYPOINT python app.py
 # to access that running detached container
 #  <docker exec -it docker_id/name bash >
 
+# deleting all cached images and builds or containers
+#  <docker system prune -a>
+#  <docker builder prune>
+
 # further reference 
 # https://towardsdatascience.com/how-to-dockerize-an-existing-flask-application-115408463e1c
 # https://felipefaria.medium.com/running-a-simple-flask-application-inside-a-docker-container-b83bf3e07dd5
